@@ -257,7 +257,7 @@ grunt.registerTask('build', function(mode, app) {
       '    {\n'+
       '      "webdriverVersions": {\n' +
       '        "selenium": "2.47.1",\n' +
-      '        "chromedriver": "2.24",\n' +
+      '        "chromedriver": "2.36",\n' +
       '        "iedriver": "2.47.0"\n' +
       '      }\n' +
       '    }'

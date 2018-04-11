@@ -137,7 +137,7 @@ public class TestServlet extends HttpServlet {
     }
   }
 
-  protected void createAdminUser(ProcessEngine processEngine) {
+  protected void createAdminUser(ProcessEngine processEngine) throws ServletException, IOException {
     UserDto user = new UserDto();
     UserCredentialsDto userCredentialsDto = new UserCredentialsDto();
     userCredentialsDto.setPassword("admin");
